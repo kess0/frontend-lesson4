@@ -10,6 +10,10 @@ li {
 	vertical-align: 15px;
 }
 
+a {
+	text-decoration: none
+}
+
 header svg {
   height: 30.57px;
   width: 100px;
