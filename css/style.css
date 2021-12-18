@@ -1,0 +1,145 @@
+a {
+	text-decoration: none
+}
+
+footer {
+	margin-left: 7px;
+	margin-top: 130px;
+	margin-bottom: 15px;
+}
+
+svg {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+nav {
+	margin-right: 20px;
+	font-family: "BPG Nino Mtavruli Bold";
+  line-height: 27px;
+}
+
+li {
+	display: inline;
+	margin-left: 30px;
+	vertical-align: 15px;
+}
+
+header svg {
+  height: 30.57px;
+  width: 100px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+header {
+	height: 70px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-weight: bold;
+	margin-bottom: -20px;
+}
+
+@font-face {
+    font-family: 'BPG Nino Mtavruli Bold';
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
+
+@font-face{font-family:'BPG Nino Mtavruli Bold';src:url(../fonts/bpg-nino-mtavruli-bold-webfont.eot);src:url(../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/bpg-nino-mtavruli-bold-webfont.woff2) format('woff2'),url(../fonts/bpg-nino-mtavruli-bold-webfont.woff) format('woff'),url(../fonts/bpg-nino-mtavruli-bold-webfont.ttf) format('truetype'),url(../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold) format('svg')}
+
+a.one:link {
+	color: #EE4036;
+}
+a.one:visited {
+	color: #EE4036;
+}
+a.one:hover {
+	color: #EE4036;
+}
+
+a.two:link {
+	color: #3D58A6;
+}
+a.two:visited 
+{
+	color: #3D58A6;
+}
+a.two:hover {
+	color: #3D58A6;
+}
+a.three:link {
+	color: #3D58A6;
+}
+a.three:visited 
+{
+	color: #3D58A6;
+}
+a.three:hover {
+	color: #3D58A6;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: -110px;
+  margin-top: 150px;
+}
+
+.container svg {
+  float: left;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #58595B;
+  line-height: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 97%;
+  }
+
+ .container h3 {
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 22px;
+ 	font-weight: bolder;
+ 	color: #3D58A6;
+ 	text-align: left;
+ }
+
+.column {
+  float: left;
+  width: 570px;
+  margin-top: -110px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-left: 20px;
+}
+
+.columnTwo {
+	float: left;
+  width: 570px;
+  margin-top: -110px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-left: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

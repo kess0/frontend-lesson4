@@ -1,0 +1,128 @@
+nav {
+	margin-right: 20px;
+	font-family: "BPG Nino Mtavruli Bold";
+  line-height: 27px;
+}
+
+li {
+	display: inline;
+	margin-left: 30px;
+	vertical-align: 15px;
+}
+
+header svg {
+  height: 30.57px;
+  width: 100px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+footer {
+	margin-left: 7px;
+	margin-top: 130px;
+}
+
+svg {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+header {
+	height: 70px;
+}
+
+@font-face {
+    font-family: 'BPG Nino Mtavruli Bold';
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
+
+@font-face{font-family:'BPG Nino Mtavruli Bold';src:url(../fonts/bpg-nino-mtavruli-bold-webfont.eot);src:url(../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/bpg-nino-mtavruli-bold-webfont.woff2) format('woff2'),url(../fonts/bpg-nino-mtavruli-bold-webfont.woff) format('woff'),url(../fonts/bpg-nino-mtavruli-bold-webfont.ttf) format('truetype'),url(../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold) format('svg')}
+
+h2 {
+	color: #3D58A6;
+	font-size: 20px;
+	margin-top: 130px;
+	font-family: 'BPG Nino Mtavruli Bold';
+}
+
+strong {
+  font-weight: normal;
+  color: #808080;
+}
+
+p {
+	line-height: 24px;
+	font-family: "BPG Ingiri Arial", sans-serif;
+}
+
+a {
+	color: #000000;
+}
+
+a.one:link {
+	color: #EE4036;
+}
+a.one:visited {
+	color: #EE4036;
+}
+a.one:hover {
+	color: #EE4036;
+}
+
+a.two:link {
+	color: #3D58A6;
+}
+a.two:visited 
+{
+	color: #3D58A6;
+}
+a.two:hover {
+	color: #3D58A6;
+}
+a.three:link {
+	color: #3D58A6;
+}
+a.three:visited 
+{
+	color: #3D58A6;
+}
+a.three:hover {
+	color: #3D58A6;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: -110px;
+  margin-top: 15px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: -110px;
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.columnTwo {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: -350px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
